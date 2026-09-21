@@ -1,0 +1,115 @@
+{
+  "tables": {
+    "resources": [
+      "id",
+      "name",
+      "category_id",
+      "location",
+      "description",
+      "owner",
+      "opening_time",
+      "closing_time",
+      "status",
+      "views",
+      "qr_code",
+      "lat",
+      "lng"
+    ],
+    "categories": [
+      "id",
+      "name",
+      "icon",
+      "description"
+    ],
+    "activities": [
+      "id",
+      "name",
+      "date",
+      "start_time",
+      "end_time",
+      "location",
+      "teacher_id",
+      "capacity",
+      "description",
+      "status"
+    ],
+    "students": [
+      "id",
+      "student_code",
+      "name",
+      "grade",
+      "room",
+      "email",
+      "phone",
+      "status"
+    ],
+    "teachers": [
+      "id",
+      "name",
+      "position",
+      "department",
+      "email",
+      "phone",
+      "role"
+    ],
+    "quizzes": [
+      "id",
+      "resource_id",
+      "title",
+      "passing_score",
+      "status"
+    ],
+    "questions": [
+      "id",
+      "quiz_id",
+      "question",
+      "choice_a",
+      "choice_b",
+      "choice_c",
+      "choice_d",
+      "answer",
+      "points"
+    ],
+    "quiz_results": [
+      "id",
+      "quiz_id",
+      "student_id",
+      "score",
+      "date"
+    ],
+    "badges": [
+      "id",
+      "name",
+      "description",
+      "icon",
+      "condition"
+    ],
+    "user_badges": [
+      "id",
+      "student_id",
+      "badge_id",
+      "date"
+    ],
+    "news": [
+      "id",
+      "title",
+      "body",
+      "image",
+      "published_at",
+      "status"
+    ],
+    "loans": [
+      "id",
+      "student_id",
+      "media_name",
+      "borrowed_at",
+      "due_at",
+      "returned_at",
+      "status"
+    ],
+    "settings": [
+      "key",
+      "value"
+    ]
+  }
+}

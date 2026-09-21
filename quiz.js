@@ -1,0 +1,1 @@
+export function calculateScore(answers,questions){let score=0,total=0;questions.forEach((q,i)=>{total+=q.points||1;if(answers[i]===q.answer)score+=q.points||1});return {score,total,percent:total?Math.round(score/total*100):0}}

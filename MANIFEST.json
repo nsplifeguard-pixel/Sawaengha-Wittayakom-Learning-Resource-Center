@@ -1,0 +1,28 @@
+{
+  "project": "Sawaengha Wittayakom Learning Resource Center - FULL",
+  "files": [
+    "README.md",
+    "api-spec.md",
+    "assets/school-logo.jpg",
+    "config.json",
+    "css/app.css",
+    "data/sample-activities.json",
+    "data/sample-resources.json",
+    "database-schema.json",
+    "database.sql",
+    "docs/deployment.md",
+    "docs/user-manual.md",
+    "index.html",
+    "js/app.js",
+    "js/auth.js",
+    "js/backup.js",
+    "js/qr.js",
+    "js/quiz.js",
+    "js/reports.js",
+    "js/store.js",
+    "js/ui.js",
+    "login.html"
+  ],
+  "total_files": 21,
+  "logo_source": "User-provided school logo"
+}

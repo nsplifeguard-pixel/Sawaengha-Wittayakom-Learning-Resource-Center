@@ -1,0 +1,13 @@
+{
+  "schoolName": "โรงเรียนแสวงหาวิทยาคม",
+  "systemName": "ศูนย์แหล่งเรียนรู้",
+  "theme": "purple-gold",
+  "language": "th",
+  "timezone": "Asia/Bangkok",
+  "backend": "localStorage",
+  "productionBackendOptions": [
+    "Google Sheets/AppSheet",
+    "Firebase",
+    "Supabase"
+  ]
+}

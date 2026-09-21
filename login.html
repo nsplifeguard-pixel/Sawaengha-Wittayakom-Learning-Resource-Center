@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>เข้าสู่ระบบ | โรงเรียนแสวงหาวิทยาคม</title><link rel="stylesheet" href="css/app.css"></head>
+<body class="login-page"><div class="login-card">
+<img src="assets/school-logo.jpg" class="login-logo"><h1>ศูนย์แหล่งเรียนรู้</h1><p>โรงเรียนแสวงหาวิทยาคม</p>
+<input id="user" placeholder="ชื่อผู้ใช้"><input id="pass" type="password" placeholder="รหัสผ่าน">
+<select id="role"><option>นักเรียน</option><option>ครู</option><option>ผู้ดูแลระบบ</option></select>
+<button class="btn primary" onclick="login()">เข้าสู่ระบบ</button><small>Demo: ใช้ชื่อใดก็ได้และรหัสผ่านใดก็ได้</small>
+</div><script>function login(){localStorage.setItem('sw_role',role.value);location.href='index.html'}</script></body></html>
